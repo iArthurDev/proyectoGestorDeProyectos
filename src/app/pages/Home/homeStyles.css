@@ -1,0 +1,23 @@
+.home-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #0f0c68, #30356e);
+}
+
+.contenedor-tablero {
+  margin-top: 3%;
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}

@@ -1,0 +1,14 @@
+.login-page {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+}
+
+.contenedor-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 3%;
+}

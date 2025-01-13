@@ -1,0 +1,65 @@
+.contenedor-login {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(to bottom, #0a1764, #4f2c71);
+}
+
+.contenedor-login-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 2%;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contenedor-lbl-signin {
+  width: 70%;
+  margin-top: 5%;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.lbl-signin:hover {
+  cursor: pointer;
+}
+
+.btn-ingresar {
+  margin-top: 2%;
+  border: 1px;
+  border-radius: 15px;
+  width: 35%;
+  height: 5vh;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #d6d6d6;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn-ingresar a {
+  color: black;
+}
+
+.btn-ingresar:active {
+  background-color: #5c5c5c;
+}

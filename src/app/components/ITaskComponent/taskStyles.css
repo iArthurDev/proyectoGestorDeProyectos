@@ -1,0 +1,138 @@
+.task {
+  width: 100%;
+  height: 15vh;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background-color: rgb(16, 16, 16);
+  border: 1px solid rgb(90, 90, 90);
+  color: white;
+}
+
+.task-menu {
+  display: flex;
+  height: 3vh;
+}
+
+.container-button-openMenu {
+  margin-top: 0;
+  width: 10%;
+  height: 100%;
+}
+
+.btn-openMenu {
+  margin-top: 0;
+  border-radius: 10px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  background: rgb(51, 51, 51);
+  border: none;
+  cursor: pointer;
+}
+
+.menu-options {
+  width: 30%;
+  height: 100%;
+  border-radius: 0px 0px 10px 0px;
+  background-color: rgb(75, 75, 75);
+}
+
+.btn-menu {
+  margin-top: 0;
+  border-radius: 0px 0px 10px 0px;
+  width: 50%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit {
+  border-radius: 0px;
+}
+
+.container-task-details {
+  margin-top: 5px;
+  width: 100%;
+  height: 10vh;
+}
+
+.container-task-priority {
+  width: 100%;
+  height: 1vh;
+}
+
+.task-priority {
+  width: 13%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 15px;
+}
+
+.low {
+  background-color: aquamarine;
+}
+
+.medium-low {
+  background-color: rgb(50, 108, 200);
+}
+
+.medium {
+  background-color: rgb(249, 240, 62);
+}
+
+.medium-high {
+  background-color: rgb(240, 135, 30);
+}
+
+.high {
+  background-color: rgb(246, 7, 7);
+}
+
+.container-task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-details {
+  height: 7vh;
+  padding-left: 5px;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+  flex-shrink: 0;
+  overflow: auto;
+}
+
+/* Ancho de la barra desplazadora */
+.task-details::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Fondo de la barra */
+.task-details::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Thumb (parte móvil) */
+.task-details::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Color del thumb al pasar el cursor */
+.task-details::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.more-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-task-responsables,
+.container-task-date {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
