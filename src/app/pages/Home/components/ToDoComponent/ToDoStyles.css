@@ -28,18 +28,3 @@
 .ToDo-container::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-button {
-  margin-top: 2%;
-  width: 40%;
-  border: 1px;
-  border-radius: 20px;
-  font-size: 1.1rem;
-  font-family: "Times New Roman", Times, serif;
-  cursor: pointer;
-  background-color: rgb(164, 174, 193);
-}
-
-button:active {
-  background-color: #34395c;
-}

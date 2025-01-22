@@ -7,17 +7,29 @@
   background: linear-gradient(to bottom, #0f0c68, #30356e);
 }
 
-.contenedor-tablero {
-  margin-top: 3%;
-  width: 90%;
-  height: 80vh;
-  display: flex;
-  justify-content: space-between;
+.nueva-tarea {
+  margin-top: 1%;
+  width: 75%;
 }
 
-.columna {
-  flex: 1;
+.nueva-tarea button {
+  width: 15%;
+  width: 15%;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  background-color: rgb(164, 174, 193);
+}
+
+button:active {
+  background-color: #3a3a3a;
+}
+
+.contenedor-tablero {
+  margin-top: 1%;
+  width: 80%;
+  height: 80vh;
   display: flex;
-  justify-content: center;
-  margin: 0 20px;
 }

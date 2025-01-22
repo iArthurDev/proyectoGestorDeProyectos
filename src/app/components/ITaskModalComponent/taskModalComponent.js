@@ -10,6 +10,7 @@ export default function TaskModalComponent({
 }) {
   const [idTask, setIdTask] = useState(tasks.length + 1);
   const [priority, setPriority] = useState("low");
+  const [status, setStatus] = useState("backlog");
   const [description, setDescription] = useState("");
   const [date, setDate] = useState("");
 
